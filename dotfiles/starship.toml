@@ -1,0 +1,10 @@
+add_newline = true
+
+[aws]
+displayed_items = "profile"
+
+[line_break]
+disabled = true
+
+[username]
+show_always = true
