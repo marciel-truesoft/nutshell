@@ -1,0 +1,63 @@
+{
+
+    // Text Editor
+
+    "editor.renderWhitespace": "selection",
+    "editor.rulers": [80, 120],
+    "editor.smoothScrolling": true,
+
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorSmoothCaretAnimation": true,
+
+    "editor.fontFamily": "'Jetbrains Mono', Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 14,
+
+    "diffEditor.ignoreTrimWhitespace": false,
+
+    "editor.suggestSelection": "first",
+
+    "files.autoSave": "onFocusChange",
+    "files.encoding": "utf8",
+    "files.eol": "\n",
+
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+
+
+    // Workspace
+
+    "workbench.enableExperiments": false,
+    "workbench.startupEditor": "newUntitledFile",
+
+
+    // Features
+
+    "terminal.integrated.cursorBlinking": true,
+
+
+    // Application
+
+    "update.mode": "start",
+
+    "telemetry.enableTelemetry": false,
+    "telemetry.enableCrashReporter": false,
+
+
+    // Extensions
+
+    "python.jediEnabled": false,
+
+    "java.semanticHighlighting.enabled": true,
+
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
+
+}
