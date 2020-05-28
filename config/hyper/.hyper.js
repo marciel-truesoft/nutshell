@@ -10,7 +10,7 @@ module.exports = {
 
     cursorBlink: true,
 
-    padding: '16px 18px',
+    padding: '1rem',
     windowSize: [1024, 512]
   }
 };

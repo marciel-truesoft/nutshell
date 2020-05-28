@@ -5,27 +5,14 @@ export PATH="/usr/local/sbin:$PATH"
 
 export ZSH="$HOME/.oh-my-zsh"
 
-plugins=(
-    aws
-    brew
-    docker
-    git
-    git-flow-avh
-    mvn
-    nvm
-    osx
-    sdk
-    ssh-agent
-    virtualenvwrapper
-    vscode
-)
+plugins=(aws brew nvm osx sdk ssh-agent virtualenvwrapper)
 
-
-export SITE_PACKAGES="$(python3 -m site --user-base)"
-export PATH="$SITE_PACKAGES/bin:$PATH"
 
 export PROJECT_HOME="$HOME/Development"
 export PATH="$PROJECT_HOME/devops/scripts:$PATH"
+
+export SITE_PACKAGES="$(python3 -m site --user-base)"
+export PATH="$SITE_PACKAGES/bin:$PATH"
 
 export WORKON_HOME="$HOME/.virtualenvs"
 export VIRTUALENVWRAPPER_PYTHON="$(brew --prefix)/bin/python3"
@@ -39,7 +26,6 @@ export SDKMAN_DIR="$HOME/.sdkman"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && source "$NVM_DIR/nvm.sh"
-[ -s "$NVM_DIR/bash_completion" ] && source "$NVM_DIR/bash_completion"
 
 
 export ANDROID_SDK_ROOT="$HOME/Library/Android/sdk"
